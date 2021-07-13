@@ -28,7 +28,7 @@
     //   return $videoUpoad = $_POST['news-title'];
     // }
     public function setvideoUpoad(){
-        $target_dir = "../assets/vidoes";
+        $target_dir = "../assets/vidoes/";
         $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 				// $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
         // // $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
